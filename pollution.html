@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UV Index</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="pollution.css">
+    </head>
+    <body>
+
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar navbar-default" id="navigation-bar">
+            <div class=container>
+                <div class="navbar-header">
+                    <!-- LOGO -->
+                    <a href="index.html" class="navbar-brand navbar-link" id="logo-text">
+                        <img src="images/logo.png" class="img-responsive" id="logo"><strong>Weatherology</strong>
+                    </a>
+                    <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                        <span class="sr-only">Toggle Navigation</span>  
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="nav navbar-nav navbar-right" id="lists">
+                        <li><a href="currentweather.html">Current Weather</a></li>
+                        <li><a href="forecast.html">Forecast</a></li>
+                        <li><a href="uvindex.html">UV Index</a></li>
+                        <li><a href="pollution.html">AQI</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!-- DISPLAY INFORMATION -->
+        <div class="jumbotron text-center jumbo">
+            <h2 style="margin-top: 70px;"><b>Air Quality Index (AQI) Information</b></h2>
+        </div>
+
+        <div class="container" style="height: 440px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="text-center text-primary" id="title-searchcity">Search Coordinates</h3>
+                    <div id="error" class="text-center"></div>
+                </div>
+                <div class="row-form-group form-inline" id="city-div" style="margin-bottom: 40px;">
+                        <input type="text" name="latitude" id="lat" placeholder="Enter the Latitude" class="form-control">
+                        <input type="text" name="longitude" id="long" placeholder="Enter the Longitude" class="form-control">
+                    <button class="btn btn-primary" id="submit-AQI">Search</button>
+                </div>
+            </div>
+
+            <div id="output-AQI"></div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <p>&copy; Shefali Sharma &nbsp; &nbsp; <i class="fa fa-hand-pointer-o"></i>  <a href=" https://shefali289.github.io/MyResume/" style="color: #ffffff;">My Resume</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="pollution.js"></script>
+    </body>
+</html>

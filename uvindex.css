@@ -1,0 +1,141 @@
+body
+{
+    font-family: 'Tangerine', serif;
+    background-color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/default.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#navigation-bar
+{
+    margin-bottom: 0px;
+    padding: 0;
+    background-color: #ffffff;
+    border: none;
+    z-index: 20;
+    position: fixed;
+    width: 100%;
+}
+
+#logo-text
+{
+    color: #4AA1F3 !important;
+    font-size: 25px;
+}
+
+#logo
+{
+    max-height: 42px;
+    margin-right: 8px;
+    margin-top: -10px;
+    display: inline-block; 
+}
+
+#lists > li > a
+{
+    color: #4AA1F3 !important;
+}
+
+#lists > li > a:hover
+{
+    color: #ffffff !important;
+    background-color: #286090;
+    text-decoration: underline #4EB1BA;
+}
+
+#row-text
+{
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    margin-top: 0px;
+    margin-left: 1px;
+}
+
+.jumbo
+{
+    font-size: 40px;
+    background-color: #4AA1F3;
+    color: #ffffff;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 2px #286090;
+    box-shadow: 2px 2px 2px #286090;
+}
+
+#city-div
+{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type="text"]
+{
+    height: 40px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#submit-coords
+{
+    height: 40px;
+    letter-spacing: 0.5px;
+    margin-top: 14px;
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit-coords:hover
+{
+    height: 40px;
+    background-color: #286090;
+}
+
+#error-msg
+{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+#lat, #long
+{
+    margin-top: 15px;
+}
+
+.footer
+{
+    margin-top: 400px;
+    width: 100%;
+    height: 60px;
+    background-color: #4AA1F3;
+    color: #ffffff;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer p
+{
+    margin-top: 15px;
+}
+
+#output-UV
+{
+    margin: auto;
+    background-color: rgba(0,0,0,0.25);
+    color: #ffffff;
+    border-radius: 10px;
+    width: 60%;  
+    box-shadow: 1px 1px 5px black;
+    text-shadow: 2px 2px 2px black;
+}
+
