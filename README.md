@@ -1,7 +1,4 @@
-# *WEATHEROLOGY - Weather Website*
-# assessment-project
-
-##DESCRIPTION
+# *WEATHEROLOGY - Weather & Air Website*
 
 ###### A website that allows you to search for current weather information by city name, display 5-day weather forecast for various cities, and also get the UV (Ultraviolet) Index and AQI (Air Quality Index) values by searching the coordinates. 
 
